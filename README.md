@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <h1 align="center">AI Creator</h1>
   <p align="center">
@@ -153,7 +155,7 @@ pnpm --filter @ai-creator/mobile dev
 
 #### LLM API Key 配置说明
 
-模型格式 `provider:modelId`。服务端按 `provider` 解析对应的环境变量：
+模型格式 `provider:modelId[/reasoning]`。服务端按 `provider` 解析对应的环境变量：
 
 - **API Key**：先查 `<PROVIDER>_API_KEY`，没有则回退 `LLM_API_KEY`
 - **Base URL**：可选，配 `<PROVIDER>_BASE_URL` 覆盖默认接入地址
