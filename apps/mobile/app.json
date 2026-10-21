@@ -2,7 +2,8 @@
   "expo": {
     "name": "AI Creator",
     "slug": "ai-creator",
-    "version": "0.2.1",
+    "version": "0.2.2",
+    "icon": "./assets/icon.png",
     "scheme": "ai-creator",
     "platforms": [
       "ios",
@@ -10,11 +11,18 @@
     ],
     "orientation": "default",
     "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
       "backgroundColor": "#0f172a"
     },
     "android": {
       "usesCleartextTraffic": true,
-      "package": "com.anonymous.aicreator"
+      "package": "com.anonymous.aicreator",
+      "versionCode": 4,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0f172a"
+      }
     },
     "ios": {
       "infoPlist": {
